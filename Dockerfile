@@ -1,4 +1,5 @@
-FROM node:12-stretch-slim
+FROM node:16-alpine
+# FROM node:12-stretch-slim
 
 ENV PORT 3000
 
