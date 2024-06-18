@@ -3,17 +3,17 @@ FROM node:12-stretch-slim
 ENV PORT 3000
 
 # Create app directory
-RUN mkdir -p /usr/src/app/trello
-WORKDIR /usr/src/app/trello
+RUN mkdir -p /usr/src/app/toltracker
+WORKDIR /usr/src/app/toltracker
 
 # Installing dependencies
-COPY package.json /usr/src/app/trello
-COPY yarn.lock /usr/src/app/trello
+COPY package.json /usr/src/app/toltracker
+COPY yarn.lock /usr/src/app/toltracker
 
 RUN yarn install
 
 # Copying source files
-COPY . /usr/src/app/trello
+COPY . /usr/src/app/toltracker
 
 CMD ["yarn", "dev"]
 
