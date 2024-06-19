@@ -107,7 +107,7 @@ const Login = () => {
       <Box display="flex" justifyContent="center" alignItems="center" my="40px">
         <Image height="20px" mt="2" src="/trello-icon.svg" alt="brand logo"></Image>
         <Text fontWeight="bold" fontSize="28px" m="4px">
-          Trello
+          Toltracker
         </Text>
       </Box>
 
@@ -146,7 +146,7 @@ const Login = () => {
             fontSize={['16px', '16px', '20px', '20px']}
             fontWeight="semibold"
             lineHeight="normal">
-            <h1>Log in to Trello</h1>
+            <h1>Log in to Toltracker</h1>
           </Box>
           <Box my={4} textAlign="left">
             <form>
